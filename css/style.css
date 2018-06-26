@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Noto+Serif|Roboto+Slab&subset=latin-ext");
-header h1 {
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.jumbotron .header h1 {
 width: 844px;
 height: 55px;
 color: #ffffff;
