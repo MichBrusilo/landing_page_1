@@ -4,6 +4,40 @@
 	margin: 0;
 	box-sizing: border-box;
 }
+.jumbotron {
+  background-image: url("../images/background-image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.jumbotron .navi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding: 0 230px 180px 230px;
+}
+
+.jumbotron .navi__image {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.jumbotron .navi__menu {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  flex: 1;
+}
+
+.jumbotron .navi__menu li a {
+  font: 14px "Montserrat", sans-serif;
+  padding: 0 0 0 40px;
+  font-size: 16px;
+}
+
 .jumbotron .header h1 {
 width: 844px;
 height: 55px;
