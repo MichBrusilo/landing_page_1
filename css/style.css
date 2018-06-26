@@ -10,6 +10,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
+  height: 729px;
 }
 .jumbotron .navi {
   display: flex;
@@ -56,7 +57,9 @@ font-size: 75px;
 font-weight: 700;
 text-transform: uppercase;
 letter-spacing: -1.88px;
+padding-bottom: 60px;
 }
+
 .jumbotron .header p {
 width: 430px;
 height: 32px;
@@ -67,6 +70,7 @@ font-style: italic;
 letter-spacing: -1px;
 padding: 20px;
 }
+
 .yellowbtn {
 width: 240px;
 height: 65px;
