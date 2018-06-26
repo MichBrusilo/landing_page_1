@@ -14,3 +14,17 @@ font-weight: 700;
 text-transform: uppercase;
 letter-spacing: -1.88px;
 }
+.jumbotron .header p {
+width: 430px;
+height: 32px;
+color: #ffffff;
+font-family: "Droid Serif";
+font-size: 40px;
+font-style: italic;
+letter-spacing: -1px;
+}
+.yellowbtn {
+width: 240px;
+height: 65px;
+background-color: #fed136;
+}
