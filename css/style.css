@@ -225,3 +225,35 @@ font-weight: 700;
   font-style: italic;
   padding-bottom: 20px;
 }
+
+.aboutus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aboutus__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus__header h1 {
+  text-transform: uppercase;
+  font: 18px;
+  font-weight: bold;
+}
+
+.aboutus__round {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 300px;
+}
+
+.aboutus__round .round {
+  display: flex;
+  justify-content: center;
+}
