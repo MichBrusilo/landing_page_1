@@ -119,3 +119,17 @@ font: 18px "Montserrat";
 text-transform: uppercase;
 font-weight: 700;
 }
+
+.services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.services__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
