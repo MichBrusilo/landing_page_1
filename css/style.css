@@ -353,3 +353,9 @@ font-weight: 700;
 .team__text p {
   font-size: 16px;
 }
+
+.logos {
+	padding: 60px 10px;
+	text-align: center;
+}
+
