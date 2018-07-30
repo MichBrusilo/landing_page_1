@@ -313,3 +313,43 @@ font-weight: 700;
   justify-content: center;
   align-items: center;
 }
+
+.team__header h1 {
+  text-transform: uppercase;
+  font: 18px;
+  font-weight: bold;
+}
+
+.team__members {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 80px;
+  flex-wrap: wrap;
+}
+
+.team__members .member {
+  padding: 25px;
+}
+
+.team__members .member .member_decription {
+  margin: 25px 10px 25px 10px;
+  text-align: center;
+}
+
+.team__person .person .member_description h1 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.team__person .person .member_description p {
+  padding-bottom: 20px;
+}
+
+.team__text {
+  text-align: center;
+}
+
+.team__text p {
+  font-size: 16px;
+}
