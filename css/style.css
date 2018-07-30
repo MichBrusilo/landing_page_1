@@ -177,3 +177,21 @@ font-weight: 700;
 .services__items .item p {
   text-align: center;
 }
+
+.portfoliobg {
+  background-color: #f7f7f7;
+  width: 100%;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.portfolio__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
