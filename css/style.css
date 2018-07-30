@@ -359,3 +359,7 @@ font-weight: 700;
 	text-align: center;
 }
 
+.logos img {
+	padding: 6px;
+	margin: 10px;
+}
