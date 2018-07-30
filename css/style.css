@@ -13,6 +13,36 @@ a {
 	padding: 150px;
 }
 
+h1 {
+  font: "Montserrat", sans-serif;
+  padding: 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3 {
+  font: 16px "Montserrat", sans-serif;
+  color: #777777;
+  font-style: italic;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+
+p {
+  font: 14px "Roboto Slab", serif;
+  color: #777777;
+}
+
+.container {
+  padding: 120px;
+}
+
 .jumbotron {
   background-image: url("../images/background-image.png");
   background-position: center;
