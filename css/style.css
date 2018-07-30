@@ -259,10 +259,17 @@ font-weight: 700;
 }
 
 .aboutus__round .round:nth-child(even) .round__text {
-  margin-left: 800px;
+  margin-left: 700px;
 }
 
 .aboutus__round .round:nth-child(odd) .round__text {
-  margin-right: 800px;
+  margin-right: 700px;
   text-align: right;
+}
+
+.aboutus__round .round:last-child .round__text {
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  display: flex;
 }
