@@ -257,3 +257,12 @@ font-weight: 700;
   display: flex;
   justify-content: center;
 }
+
+.aboutus__round .round:nth-child(even) .round__text {
+  margin-left: 800px;
+}
+
+.aboutus__round .round:nth-child(odd) .round__text {
+  margin-right: 800px;
+  text-align: right;
+}
