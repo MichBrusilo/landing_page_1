@@ -332,6 +332,19 @@ cursor: pointer;
   padding: 10px;
 }
 
+.team {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.team__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .team__members {
   display: flex;
