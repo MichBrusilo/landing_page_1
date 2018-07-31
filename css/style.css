@@ -434,3 +434,24 @@ font-weight: 700;
   flex: 1;
   display: flex;
 }
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 25px 120px;
+}
+
+.footer__copy {
+  flex: 0.5;
+}
+
+.footer__copy p {
+  font: 14px "Montserrat", sans-serif;
+  color: #777777;
+  font-weight: bold;
+}
+
+.footer__icon {
+  flex: 1;
+  padding: 0 60px 0 0px 0;
+}
