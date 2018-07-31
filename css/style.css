@@ -42,6 +42,7 @@ p {
 .container {
   padding: 120px;
 }
+/* jumbotron */
 
 .jumbotron {
   background-image: url("../images/background-image.png");
@@ -119,6 +120,8 @@ font: 18px "Montserrat";
 text-transform: uppercase;
 font-weight: 700;
 }
+
+/* services */
 
 .services {
   display: flex;
@@ -353,6 +356,7 @@ font-weight: 700;
 .team__text p {
   font-size: 16px;
 }
+/* logos */
 
 .logos {
 	padding: 60px 10px;
@@ -362,4 +366,21 @@ font-weight: 700;
 .logos img {
 	padding: 6px;
 	margin: 10px;
+}
+
+/* contact */
+
+.mapbg {
+  background-color: #222222;
+  width: 100%;
+  background-image: url("../images/Map.png");
+  background-position: right;
+  background-repeat: no-repeat;
+}
+
+.mapbg .contactus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
