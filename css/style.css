@@ -306,7 +306,6 @@ cursor: pointer;
   flex-direction: column;
   max-width: 350px;
   flex: 1;
-  margin: 80px 0 80px 0;
 }
 
 .aboutus__round .round__text h1 {
