@@ -332,49 +332,30 @@ cursor: pointer;
   padding: 10px;
 }
 
-.team {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.team__header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.team__header h1 {
-  text-transform: uppercase;
-  font: 18px;
-  font-weight: bold;
-}
 
 .team__members {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 70px;
-  flex-flow: wrap;
+  flex-wrap: wrap;
 }
 
 .team__members .member {
   padding: 25px;
 }
 
-.team__members .member .member_decription {
+.team__members .member .member__description {
   margin: 25px 10px 25px 10px;
   text-align: center;
 }
 
-.team__members .member .member_description h1 {
+.team__members .member .member__description h1 {
   font-size: 18px;
   font-weight: bold;
 }
 
-.team__members .member .member_description p {
+.team__members .member .member__description p {
   padding-bottom: 20px;
 }
 
