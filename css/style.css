@@ -485,3 +485,60 @@ cursor: pointer;
   flex: 1;
   padding: 0 60px 0 0px 0;
 }
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	.container {
+    padding: 80px 0 80px 0;
+  }
+	.jumbotron .navi {
+    padding: 0 70px 70px 70px;
+  }
+    .jumbotron .navi__menu li a {
+    padding: 0 0 0 20px;
+  }
+  	.jumbotron .header p {
+    font: 40px;
+    padding: 20px;
+  }
+  	.jumbotron .header h1 {
+    font-size: 45px;
+  }
+  	.portfolio__box {
+    padding-top: 40px;
+  }
+  	.aboutus__circle {
+    padding-bottom: 250px;
+  }
+  	.aboutus__round .round:nth-child(even) .round__text {
+    margin-left: 450px;
+  }
+
+    .aboutus__round .round:nth-child(odd) .round__text {
+    margin-right: 450px;
+    text-align: right;
+  }
+    .aboutus__circle .circle__text {
+    margin: 70px 0px 70px 0px;
+    max-width: 200px;
+  }
+    .team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+   .team__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+	.team__members {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    flex-wrap: wrap;
+  }
+}
