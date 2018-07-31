@@ -87,8 +87,6 @@ p {
 }
 
 .jumbotron .header h1 {
-width: 844px;
-height: 55px;
 color: #ffffff;
 font-family: Montserrat;
 font-size: 75px;
@@ -374,6 +372,7 @@ cursor: pointer;
 
 .team__text {
   text-align: center;
+   padding: 0 120px 0 120px;
 }
 
 .team__text p {
@@ -456,8 +455,15 @@ cursor: pointer;
 }
 
 .contactbg .contact__form .form__textarea {
+	margin: 15px 15px 15px 20px;
   flex: 1;
   display: flex;
+}
+
+.contactbg .contact__form .form__textarea textarea {
+  flex: 1;
+  height: 100%;
+  padding: 15px;
 }
 
 .footer {
