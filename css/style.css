@@ -523,6 +523,13 @@ cursor: pointer;
     margin: 70px 0px 70px 0px;
     max-width: 200px;
   }
+  .aboutus__round .round:last-child .round__text {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 120px 0;
+}
     .team {
     display: flex;
     justify-content: center;
