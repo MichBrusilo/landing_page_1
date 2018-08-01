@@ -276,6 +276,7 @@ cursor: pointer;
   justify-content: center;
   text-align: center;
   display: flex;
+  margin: 120px 0;
 }
 
 .aboutus__round .round:last-child .round__text h1 {
@@ -311,6 +312,7 @@ cursor: pointer;
 .aboutus__round .round__text h1 {
   font-size: 18px;
   font-weight: bold;
+  padding: 7px;
 }
 
 .aboutus__round .round__text h1:first-child {
@@ -506,7 +508,7 @@ cursor: pointer;
   	.portfolio__box {
     padding-top: 40px;
   }
-  	.aboutus__circle {
+  	.aboutus__round {
     padding-bottom: 250px;
   }
   	.aboutus__round .round:nth-child(even) .round__text {
@@ -517,7 +519,7 @@ cursor: pointer;
     margin-right: 450px;
     text-align: right;
   }
-    .aboutus__circle .circle__text {
+    .aboutus__round .round__text {
     margin: 70px 0px 70px 0px;
     max-width: 200px;
   }
@@ -540,5 +542,233 @@ cursor: pointer;
     align-items: center;
     padding-top: 0;
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    padding: 18px;
+  }
+  a {
+    text-decoration: none;
+    color: #FFF;
+  }
+  p {
+    font: 12px
+    color: #777777;
+  }
+  .container {
+    padding: 40px 0 40px 0;
+  }
+  .jumbotron .navi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 60px 25px 60px;
+  }
+  .jumbotron .navi__menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .jumbotron .navi__menu li {
+    padding-top: 20px;
+  }
+ 
+  .jumbotron .header p {
+    font: 20px;
+    padding: 10px;
+  }
+  .jumbotron .header h1 {
+    font-size: 35px;
+    padding-bottom: 20px;
+  }
+  .services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .services__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .services__header h1 {
+    text-transform: uppercase;
+    font: 22px;
+    font-weight: bold;
+  }
+  .services__items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .services__items .item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 25px;
+  }
+  .services__items .item h1 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .services__items .item p {
+    text-align: center;
+  }
+  .portfolio__header h1 {
+    text-transform: uppercase;
+    font: 14px;
+  }
+  .portfolio__box {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+  .portfolio__box .box {
+    background-color: #FFF;
+    margin: 25px 8px 25px 8px;
+    text-align: center;
+  }
+  .portfolio__box .box h1 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .portfolio__box .box p {
+    font-style: italic;
+    padding-bottom: 20px;
+  }
+  .aboutus__header {
+    text-align: center;
+  }
+  .aboutus__header h1 {
+    text-transform: uppercase;
+    font: 14px;
+  }
+  .aboutus__round {
+    padding-bottom: 200px;
+  }
+  .aboutus__round .round {
+    display: flex;
+    justify-content: center;
+  }
+  .aboutus__round .round:nth-child(even) .round__text {
+    margin-left: 0;
+  }
+  .aboutus__round .round:nth-child(odd) .round__text {
+    text-align: center;
+    margin-right: 0;
+  }
+  .aboutus__round .round:last-child .round__text {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin: 80px 230px 0 0;
+  }
+  .aboutus__round .round:last-child .round__text h1 {
+    color: #FFF;
+    word-spacing: 100vw;
+  }
+  .aboutus__round .round__image {
+    position: absolute;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+    margin: 25px 0 0 0;
+  }
+  .aboutus__round .round__text {
+    text-align: center;
+    margin: 225px 0 80px 0;
+    max-width: 350px;
+  }
+  .team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .team__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+  .team__header h1 {
+    text-transform: uppercase;
+    font: 14px;
+  }
+  .team__members {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    flex-wrap: wrap;
+  }
+  .team__members .member__descr {
+    margin: 25px 8px 25px 8px;
+    text-align: center;
+  }
+  .team__members .member__descr h1 {
+    font-size: 14px;
+  }
+  .team__text {
+    padding: 0 20px 0 20px;
+    text-align: center;
+  }
+  .logos img {
+    padding: 50px 10px 50px 10px;
+  }
+  .mapbg .contactus__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .mapbg .contactus__header h1 {
+    text-transform: uppercase;
+    font: 14px;
+    color: #FFF;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 25px 40px;
+  }
+  .footer__copy {
+    flex: 1;
+  }
+  .footer__copy p {
+    padding: 30px;
+    font: 14px;
+    color: #777777;
+  }
+  .footer__icon {
+    flex: 1;
+    padding: 30px 0 0 0 0;
+  }
+  .yellowbtn {
+    width: 200px;
+    height: 50px;
+    border: none;
+    font: 14px;
+    font-weight: bold;
+    background-color: #fed136;
+    text-transform: uppercase;
   }
 }
