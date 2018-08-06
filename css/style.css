@@ -583,8 +583,9 @@ cursor: pointer;
     padding: 0 60px 25px 60px;
   }
   .jumbotron .navi__menu {
-    display: flex;
-    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    float: none;
   }
   .jumbotron .navi__menu li {
     padding-top: 20px;
