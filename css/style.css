@@ -87,16 +87,6 @@ p {
 }
 
 .jumbotron .header h1 {
-color: #ffffff;
-font-family: Montserrat;
-font-size: 75px;
-font-weight: 700;
-text-transform: uppercase;
-letter-spacing: -1.88px;
-padding-bottom: 60px;
-}
-
-.jumbotron .header p {
 width: 430px;
 height: 32px;
 color: #ffffff;
@@ -106,6 +96,18 @@ font-style: italic;
 letter-spacing: -1px;
 padding: 20px;
 }
+
+.jumbotron .header h2 {
+color: #ffffff;
+font-family: Montserrat;
+font-size: 75px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: -1.88px;
+padding-bottom: 60px;
+}
+
+
 
 .yellowbtn {
 width: 240px;
@@ -167,9 +169,10 @@ cursor: pointer;
   height: 70px;
   width: 70px;
   line-height: 70px;
+  border-radius: 50%;
 }
 
-.services__items .item h1 {
+.services__items .item h2 {
   font-size: 18px;
   font-weight: bold;
 }
@@ -218,7 +221,7 @@ cursor: pointer;
   text-align: center;
 }
 
-.portfolio__box .box h1 {
+.portfolio__box .box h2 {
   font-size: 18px;
   font-weight: bold;
 }
@@ -309,10 +312,9 @@ cursor: pointer;
   flex: 1;
 }
 
-.aboutus__round .round__text h1 {
+.aboutus__round .round__text h2, h3 {
   font-size: 18px;
   font-weight: bold;
-  padding: 7px;
 }
 
 .aboutus__round .round__text h1:first-child {
@@ -362,7 +364,7 @@ cursor: pointer;
   text-align: center;
 }
 
-.team__members .member .member__description h1 {
+.team__members .member .member__description h2 {
   font-size: 18px;
   font-weight: bold;
 }
@@ -431,7 +433,7 @@ cursor: pointer;
   color: #FFF;
 }
 
-.contactbg .contact__form {
+.contactbg form {
   padding-bottom: 50px;
   padding-top: 50px;
   height: 100%;
@@ -441,30 +443,32 @@ cursor: pointer;
   justify-content: center;
 }
 
-.contactbg .contact__form .form__input {
+.contactbg form .form__input {
   flex: 1;
   width: 100%;
   margin: 0 15px 0 15px;
 }
 
-.contactbg .contact__form .form__input input {
+.contactbg form .form__input input {
   display: flex;
   flex-direction: column;
   width: 100%;
   margin: 15px 0 15px 0;
   padding: 15px;
+  outline: none;
 }
 
-.contactbg .contact__form .form__textarea {
+.contactbg form .form__textarea {
 	margin: 15px 15px 15px 20px;
   flex: 1;
   display: flex;
 }
 
-.contactbg .contact__form .form__textarea textarea {
+.contactbg form .form__textarea textarea {
   flex: 1;
   height: 100%;
   padding: 15px;
+  outline: none;
 }
 
 /* footer */
