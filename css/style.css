@@ -87,8 +87,7 @@ p {
 }
 
 .jumbotron .header h1 {
-width: 430px;
-height: 32px;
+max-width: 430px;
 color: #ffffff;
 font-family: "Droid Serif";
 font-size: 40px;
