@@ -577,10 +577,15 @@ cursor: pointer;
     padding: 40px 0 40px 0;
   }
   .jumbotron .navi {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 60px 25px 60px;
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .jumbotron .navi_logo  {
+    float: none;
+    margin: auto;
+    width: 100%;
   }
   .jumbotron .navi__menu {
     margin: 0;
@@ -588,17 +593,34 @@ cursor: pointer;
     float: none;
   }
   .jumbotron .navi__menu li {
-    padding-top: 20px;
+    display: block;
   }
- 
+  .jumbotron .navi_menu li a {
+  display: block;
+  width: 100%;
+  }
+  .jumbotron .header {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+  }
   .jumbotron .header p {
     font: 20px;
     padding: 10px;
   }
   .jumbotron .header h1 {
-    font-size: 35px;
-    padding-bottom: 20px;
+    font-size: 25px;
+    margin: 0;
   }
+  .jumbotron .header h2 {
+    font-size: 35px;
+  }
+  .jumbotron .header .yellowbtn {
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+  }
+
   .services {
     display: flex;
     justify-content: center;
