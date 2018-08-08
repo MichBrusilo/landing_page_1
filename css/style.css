@@ -644,7 +644,10 @@ cursor: pointer;
   }
   .portfolio__header h1 {
     text-transform: uppercase;
-    font: 14px;
+    font-size: 14px;
+  }
+  .potfolio_header h3 {
+    font-size: 14px;
   }
   .portfolio__box {
     display: flex;
@@ -672,7 +675,7 @@ cursor: pointer;
   }
   .aboutus__header h1 {
     text-transform: uppercase;
-    font: 14px;
+    font-size: 14px;
   }
   .aboutus__round {
     padding-bottom: 200px;
@@ -726,7 +729,7 @@ cursor: pointer;
   }
   .team__header h1 {
     text-transform: uppercase;
-    font: 14px;
+    font-size: 14px;
   }
   .team__members {
     display: flex;
@@ -759,7 +762,7 @@ cursor: pointer;
   }
   .mapbg .contactus__header h1 {
     text-transform: uppercase;
-    font: 14px;
+    font-size: 14px;
     color: #FFF;
   }
   .footer {
@@ -774,7 +777,7 @@ cursor: pointer;
   }
   .footer__copy p {
     padding: 30px;
-    font: 14px;
+    font-size: 14px;
     color: #777777;
   }
   .footer__icon {
@@ -785,7 +788,7 @@ cursor: pointer;
     width: 200px;
     height: 50px;
     border: none;
-    font: 14px;
+    font-size: 14px;
     font-weight: bold;
     background-color: #fed136;
     text-transform: uppercase;
